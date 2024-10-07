@@ -1,9 +1,9 @@
 import * as React from "react";
-// import Button from "@mui/material/Button";
-// import Menu from "@mui/material/Menu";
-// import MenuItem from "@mui/material/MenuItem";
-// import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
-// import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
+import Button from "@mui/material/Button";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
+import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
 import "./styles.css";
 
 export default function BasicMenu() {
@@ -26,10 +26,10 @@ export default function BasicMenu() {
         onClick={handleClick}
         className="profile-menu-flex"
       >
-        {/* <MenuRoundedIcon />
-        <AccountCircleRoundedIcon /> */}
+        <MenuRoundedIcon />
+        <AccountCircleRoundedIcon />
       </div>
-      {/* <Menu
+      <Menu
         id="basic-menu"
         anchorEl={anchorEl}
         open={open}
@@ -67,7 +67,7 @@ export default function BasicMenu() {
         <MenuItem onClick={handleClose} className="menu-items">
           Help
         </MenuItem>
-      </Menu> */}
+      </Menu>
     </div>
   );
 }

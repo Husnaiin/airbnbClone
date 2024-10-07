@@ -94,6 +94,9 @@
   display: none;
 }
 
+#basic-button:hover{
+  cursor: pointer;
+}
 @media only screen and (max-width: 800px) {
   .search-bar,
   .airbnb-your-home {
@@ -110,7 +113,7 @@
     top: 0.5rem;
     right: 1.5rem;
   }
-
+  
   .bottom-nav {
     display: block;
     position: fixed;
